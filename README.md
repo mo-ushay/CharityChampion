@@ -1,24 +1,55 @@
-# README
+# CharityChampion
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+CharityChampion is a fintech platform designed to empower donors to make a positive impact in the world. It simplifies the process of tracking donations and ensures they reach those in need. With CharityChampion, you can easily keep a record of your contributions, gain insights into how your donations are utilized, and actively contribute to improving the lives of beneficiaries.
 
-Things you may want to cover:
+## Features
 
-* Ruby version
+- **Donor Registration**: Quickly register as a donor to start tracking your contributions.
+- **Donation Tracking**: Maintain a comprehensive record of your donations, including the amount, date, and purpose.
+- **Beneficiary Management**: Easily manage beneficiaries and monitor the allocation of your contributions.
+- **Photo Upload**: Enhance your connection with your donations by attaching photos that showcase the impact you've made.
+- **Dashboard**: Visualize your donation history and the positive difference you've made in the lives of others.
 
-* System dependencies
+## Getting Started
 
-* Configuration
+To begin using CharityChampion, follow these straightforward steps:
 
-* Database creation
+1. **Clone the Repository**: Clone the project repository to your local environment.
 
-* Database initialization
+   ```bash
+   git clone https://github.com/mo-ushay/CharityChampion.git
 
-* How to run the test suite
+2. ### Install Dependencies:
+Install the necessary dependencies for both the frontend and backend components.
 
-* Services (job queues, cache servers, search engines, etc.)
+3. ### Database Configuration:
+ Configure your database settings in the config/database.yml file.
 
-* Deployment instructions
+4. ### Database Setup:
+ Run database migrations and seed initial data.
 
-* ...
+```ruby
+rails db:migrate
+rails db:seed
+```
+
+5. Start the Server: Launch the Rails server.
+
+```ruby
+rails server
+```
+
+
+6. Access the Application: Open your web browser and navigate to http://localhost:3000.
+
+7. Donor Registration: Register as a donor to begin using CharityChampion to track your contributions.
+
+# Technologies Used
+CharityChampion is built using the following technologies:
+
+- Ruby on Rails
+- Vue.js
+- PostgreSQL
+
+# Contact
+If you have any questions or feedback, please don't hesitate to reach out to me at **muhammadushay@gmail.com**.
